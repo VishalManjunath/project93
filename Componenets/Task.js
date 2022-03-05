@@ -30,21 +30,27 @@ const styles=StyleSheet.create ({
         height: 24,
         backgroundColor: '#ffe100',
         opacity: 0.4,
+        borderRadius: 5,
+        marginRight: 15,
     },
     item:{
         backgroundColor: '#4dff00',
         padding: 15,
-        bordeRadius: 10,
+        borderRadius: 10,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
         marginBottom: 20
     },
     itemText:{
-
+        maxWidth: '80%',
     },
     circular:{
-
+        width: 12,
+        height: 12,
+        borderColor: '#7524b7',
+        borderWidth: 2,
+        borderRadius: 5,
     },
 });
 
